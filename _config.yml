@@ -1,48 +1,52 @@
-# The Site Configuration
+# import하는 테마 명입니다. 디폴트로 사용중인 테마 명이 들어가 있으므로, 수정은 하지 않습니다.
+theme:
+  jekyll-theme-chirpy
 
-# Import the theme
-theme: jekyll-theme-chirpy
+  # 사용하는 언어 설정을 진행합니다
+lang:
+  ko-KR
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: en
-
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Shanghai
+  #timezone설정입니다
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+# 블로그 이름입니다. 설정하면 브라우저 상단에 설정된 이름이 확인가능합니다.
+title:OneTen
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+# 서브 타이틀 입니다. 설정하면 블로그 첫 페이지 좌측에서 확인 가능합니다.
+tagline: 하나부터 열까지
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
-# Fill in the protocol & hostname for your site.
-# e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+# 본인 깃허브io 링크
+url: "https://oneten19.github.io/"
 
+# 본인의 github username을 적습니다.
 github:
-  username: github_username # change to your github username
+  username: OneTen19
 
-twitter:
-  username: twitter_username # change to your twitter username
+# 트위터 이름/ 난 사용 안해서 주석처리
+#twitter:
+#  username: twitter_username # change to your twitter username
 
+
+# 소셜 관련 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: OneTen
+  email: khy000426@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # https://twitter.com/username # change to your twitter homepage
+    - https://github.com/OneTen19 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+
 
 # Site Verification Settings
 webmaster_verifications:
@@ -67,19 +71,13 @@ analytics:
 pageviews:
   provider: # now only supports 'goatcounter'
 
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
+
+# chirpy테마는 [light|dark]테마를 지원합니다. 
+# 비워두시면 사용자의 디폴트 값이 설정되고, light 또는 dark로 입력해두시면 페이지의 기본 테마가 설정됩니다.
 theme_mode: # [light | dark]
 
+
+# cdn 이미지 설정입니다. 진행하려면 url을 작성
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
@@ -87,12 +85,15 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 img_cdn: "https://chirpy-img.netlify.app"
 
-# the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+
+# 대표이미지 라고 생각하시면 됩니다. /assets/img경로에 사진을 넣은 뒤 작성
+avatar: "/assets/img/profile_image.jpg"
+
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
+
 
 # boolean type, the global switch for TOC in posts.
 toc: true
