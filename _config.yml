@@ -83,11 +83,12 @@ img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 # 대표이미지 라고 생각하시면 됩니다. /assets/img경로에 사진을 넣은 뒤 작성
-avatar: "/img/profile_image.jpg"
+avatar: "/assets/img/favicons/profile.png"
+# "/commons/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: "/assets/img/favicons/profile.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
