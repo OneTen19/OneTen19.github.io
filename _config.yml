@@ -32,8 +32,7 @@ github:
 #twitter:
 #  username: twitter_username # change to your twitter username
 
-
-# 소셜 관련 
+# 소셜 관련
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -46,7 +45,6 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
-
 
 # Site Verification Settings
 webmaster_verifications:
@@ -71,11 +69,9 @@ analytics:
 pageviews:
   provider: # now only supports 'goatcounter'
 
-
-# chirpy테마는 [light|dark]테마를 지원합니다. 
+# chirpy테마는 [light|dark]테마를 지원합니다.
 # 비워두시면 사용자의 디폴트 값이 설정되고, light 또는 dark로 입력해두시면 페이지의 기본 테마가 설정됩니다.
 theme_mode: # [light | dark]
-
 
 # cdn 이미지 설정입니다. 진행하려면 url을 작성
 # The CDN endpoint for images.
@@ -85,15 +81,13 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 img_cdn: "https://chirpy-img.netlify.app"
 
-
+# the avatar on sidebar, support local or CORS resources
 # 대표이미지 라고 생각하시면 됩니다. /assets/img경로에 사진을 넣은 뒤 작성
-avatar: "/assets/img/profile_image.jpg"
-
+avatar: "/img/profile_image.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
-
 
 # boolean type, the global switch for TOC in posts.
 toc: true
